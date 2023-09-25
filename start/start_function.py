@@ -14,6 +14,8 @@ def main():
         actual_result()
     elif inp in names.Names.expected_result:
         expected_result()
+    else:
+        print('Неизвестная команда, программа завершена')
 
 
 def preconditions():
